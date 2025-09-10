@@ -1,0 +1,239 @@
+#! /nix/store/p79bgyzmmmddi554ckwzbqlavbkw07zh-bash-5.2p37/bin/bash -e
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/6pwfsghvp9fa6bpwryk7bwbjd4f5vdxy-libcanberra-0.30/lib64'':'/':'}
+LD_LIBRARY_PATH='/nix/store/6pwfsghvp9fa6bpwryk7bwbjd4f5vdxy-libcanberra-0.30/lib64'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/vfiyznjv206ysafzl3ibnr7cr1lhq83q-libpulseaudio-17.0/lib64'':'/':'}
+LD_LIBRARY_PATH='/nix/store/vfiyznjv206ysafzl3ibnr7cr1lhq83q-libpulseaudio-17.0/lib64'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/iyy1g70fhkz3hsrckbmbqgxik1j9779c-libglvnd-1.7.0/lib64'':'/':'}
+LD_LIBRARY_PATH='/nix/store/iyy1g70fhkz3hsrckbmbqgxik1j9779c-libglvnd-1.7.0/lib64'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/7razjlx084wqwcaa359mvrcjd4lx1kn2-krb5-1.21.3-lib/lib64'':'/':'}
+LD_LIBRARY_PATH='/nix/store/7razjlx084wqwcaa359mvrcjd4lx1kn2-krb5-1.21.3-lib/lib64'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/r5a9sknnr626v8whd46h4fm7i6v5yl8l-ffmpeg-7.1.1-lib/lib64'':'/':'}
+LD_LIBRARY_PATH='/nix/store/r5a9sknnr626v8whd46h4fm7i6v5yl8l-ffmpeg-7.1.1-lib/lib64'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/z67zjqlvbgz80slzmmibmyv31k68l2r6-speech-dispatcher-0.12.1/lib64'':'/':'}
+LD_LIBRARY_PATH='/nix/store/z67zjqlvbgz80slzmmibmyv31k68l2r6-speech-dispatcher-0.12.1/lib64'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/0jgicjfcml2v3plj470ggf8q88xkxq4d-vulkan-loader-1.4.313.0/lib64'':'/':'}
+LD_LIBRARY_PATH='/nix/store/0jgicjfcml2v3plj470ggf8q88xkxq4d-vulkan-loader-1.4.313.0/lib64'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/h0zj2k3q2iqs6b2qdjqrg29l2kaksgkz-pciutils-3.14.0/lib64'':'/':'}
+LD_LIBRARY_PATH='/nix/store/h0zj2k3q2iqs6b2qdjqrg29l2kaksgkz-pciutils-3.14.0/lib64'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/wj5sc0i81fb6hcz802gmsgdsjll79wfc-cups-2.4.12-lib/lib64'':'/':'}
+LD_LIBRARY_PATH='/nix/store/wj5sc0i81fb6hcz802gmsgdsjll79wfc-cups-2.4.12-lib/lib64'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/3ia435d0b41k0gz1hmg5yj134fh1j70x-libXScrnSaver-1.2.4/lib64'':'/':'}
+LD_LIBRARY_PATH='/nix/store/3ia435d0b41k0gz1hmg5yj134fh1j70x-libXScrnSaver-1.2.4/lib64'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/1mx1hccld2shxc3acmr32kydiw5kb0l3-libnotify-0.8.6/lib64'':'/':'}
+LD_LIBRARY_PATH='/nix/store/1mx1hccld2shxc3acmr32kydiw5kb0l3-libnotify-0.8.6/lib64'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/d6a8ckgb953nqr2qamidqzz1i7v473pm-mesa-libgbm-25.1.0/lib64'':'/':'}
+LD_LIBRARY_PATH='/nix/store/d6a8ckgb953nqr2qamidqzz1i7v473pm-mesa-libgbm-25.1.0/lib64'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/ib8prgicm88f9xbg7cgbk72n3s69c0rx-libva-2.22.0/lib64'':'/':'}
+LD_LIBRARY_PATH='/nix/store/ib8prgicm88f9xbg7cgbk72n3s69c0rx-libva-2.22.0/lib64'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/pb6fwczgq5d08yppb0mxsbvvzi2wl71g-systemd-minimal-libs-257.6/lib64'':'/':'}
+LD_LIBRARY_PATH='/nix/store/pb6fwczgq5d08yppb0mxsbvvzi2wl71g-systemd-minimal-libs-257.6/lib64'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/6pwfsghvp9fa6bpwryk7bwbjd4f5vdxy-libcanberra-0.30/lib'':'/':'}
+LD_LIBRARY_PATH='/nix/store/6pwfsghvp9fa6bpwryk7bwbjd4f5vdxy-libcanberra-0.30/lib'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/vfiyznjv206ysafzl3ibnr7cr1lhq83q-libpulseaudio-17.0/lib'':'/':'}
+LD_LIBRARY_PATH='/nix/store/vfiyznjv206ysafzl3ibnr7cr1lhq83q-libpulseaudio-17.0/lib'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/iyy1g70fhkz3hsrckbmbqgxik1j9779c-libglvnd-1.7.0/lib'':'/':'}
+LD_LIBRARY_PATH='/nix/store/iyy1g70fhkz3hsrckbmbqgxik1j9779c-libglvnd-1.7.0/lib'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/7razjlx084wqwcaa359mvrcjd4lx1kn2-krb5-1.21.3-lib/lib'':'/':'}
+LD_LIBRARY_PATH='/nix/store/7razjlx084wqwcaa359mvrcjd4lx1kn2-krb5-1.21.3-lib/lib'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/r5a9sknnr626v8whd46h4fm7i6v5yl8l-ffmpeg-7.1.1-lib/lib'':'/':'}
+LD_LIBRARY_PATH='/nix/store/r5a9sknnr626v8whd46h4fm7i6v5yl8l-ffmpeg-7.1.1-lib/lib'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/z67zjqlvbgz80slzmmibmyv31k68l2r6-speech-dispatcher-0.12.1/lib'':'/':'}
+LD_LIBRARY_PATH='/nix/store/z67zjqlvbgz80slzmmibmyv31k68l2r6-speech-dispatcher-0.12.1/lib'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/0jgicjfcml2v3plj470ggf8q88xkxq4d-vulkan-loader-1.4.313.0/lib'':'/':'}
+LD_LIBRARY_PATH='/nix/store/0jgicjfcml2v3plj470ggf8q88xkxq4d-vulkan-loader-1.4.313.0/lib'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/h0zj2k3q2iqs6b2qdjqrg29l2kaksgkz-pciutils-3.14.0/lib'':'/':'}
+LD_LIBRARY_PATH='/nix/store/h0zj2k3q2iqs6b2qdjqrg29l2kaksgkz-pciutils-3.14.0/lib'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/wj5sc0i81fb6hcz802gmsgdsjll79wfc-cups-2.4.12-lib/lib'':'/':'}
+LD_LIBRARY_PATH='/nix/store/wj5sc0i81fb6hcz802gmsgdsjll79wfc-cups-2.4.12-lib/lib'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/3ia435d0b41k0gz1hmg5yj134fh1j70x-libXScrnSaver-1.2.4/lib'':'/':'}
+LD_LIBRARY_PATH='/nix/store/3ia435d0b41k0gz1hmg5yj134fh1j70x-libXScrnSaver-1.2.4/lib'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/1mx1hccld2shxc3acmr32kydiw5kb0l3-libnotify-0.8.6/lib'':'/':'}
+LD_LIBRARY_PATH='/nix/store/1mx1hccld2shxc3acmr32kydiw5kb0l3-libnotify-0.8.6/lib'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/d6a8ckgb953nqr2qamidqzz1i7v473pm-mesa-libgbm-25.1.0/lib'':'/':'}
+LD_LIBRARY_PATH='/nix/store/d6a8ckgb953nqr2qamidqzz1i7v473pm-mesa-libgbm-25.1.0/lib'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/ib8prgicm88f9xbg7cgbk72n3s69c0rx-libva-2.22.0/lib'':'/':'}
+LD_LIBRARY_PATH='/nix/store/ib8prgicm88f9xbg7cgbk72n3s69c0rx-libva-2.22.0/lib'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+':'$LD_LIBRARY_PATH':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH/':''/nix/store/pb6fwczgq5d08yppb0mxsbvvzi2wl71g-systemd-minimal-libs-257.6/lib'':'/':'}
+LD_LIBRARY_PATH='/nix/store/pb6fwczgq5d08yppb0mxsbvvzi2wl71g-systemd-minimal-libs-257.6/lib'$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH#':'}
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH%':'}
+export LD_LIBRARY_PATH
+PATH=${PATH:+':'$PATH':'}
+if [[ $PATH != *':''/nix/store/f439xf8y5y6rsphjqiw4nyxmj0b70a3d-zen-1.15.5b/bin'':'* ]]; then
+    PATH=$PATH'/nix/store/f439xf8y5y6rsphjqiw4nyxmj0b70a3d-zen-1.15.5b/bin'
+fi
+PATH=${PATH#':'}
+PATH=${PATH%':'}
+export PATH
+export MOZ_APP_LAUNCHER='zen'
+export MOZ_LEGACY_PROFILES='1'
+export MOZ_ALLOW_DOWNGRADE='1'
+GTK_PATH=${GTK_PATH:+':'$GTK_PATH':'}
+if [[ $GTK_PATH != *':''/nix/store/6pwfsghvp9fa6bpwryk7bwbjd4f5vdxy-libcanberra-0.30/lib/gtk-3.0/'':'* ]]; then
+    GTK_PATH=$GTK_PATH'/nix/store/6pwfsghvp9fa6bpwryk7bwbjd4f5vdxy-libcanberra-0.30/lib/gtk-3.0/'
+fi
+GTK_PATH=${GTK_PATH#':'}
+GTK_PATH=${GTK_PATH%':'}
+export GTK_PATH
+XDG_DATA_DIRS=${XDG_DATA_DIRS:+':'$XDG_DATA_DIRS':'}
+if [[ $XDG_DATA_DIRS != *':''/nix/store/1w8x293926aq2vcyys36aw49fy5p8cm5-adwaita-icon-theme-48.0/share'':'* ]]; then
+    XDG_DATA_DIRS=$XDG_DATA_DIRS'/nix/store/1w8x293926aq2vcyys36aw49fy5p8cm5-adwaita-icon-theme-48.0/share'
+fi
+XDG_DATA_DIRS=${XDG_DATA_DIRS#':'}
+XDG_DATA_DIRS=${XDG_DATA_DIRS%':'}
+export XDG_DATA_DIRS
+export MOZ_ENABLE_WAYLAND=${MOZ_ENABLE_WAYLAND-'1'}
+PATH=${PATH:+':'$PATH':'}
+if [[ $PATH != *':''/nix/store/yrzm7cya8nf8xnpi8xlfwx16plqkzhgh-xdg-utils-1.2.1/bin'':'* ]]; then
+    PATH=$PATH'/nix/store/yrzm7cya8nf8xnpi8xlfwx16plqkzhgh-xdg-utils-1.2.1/bin'
+fi
+PATH=${PATH#':'}
+PATH=${PATH%':'}
+export PATH
+XDG_DATA_DIRS=${XDG_DATA_DIRS:+':'$XDG_DATA_DIRS':'}
+XDG_DATA_DIRS=${XDG_DATA_DIRS/':''/nix/store/jyyijm438kvbx1425hw00wx965jsgd9g-gtk+3-3.24.49/share/gsettings-schemas/gtk+3-3.24.49'':'/':'}
+XDG_DATA_DIRS='/nix/store/jyyijm438kvbx1425hw00wx965jsgd9g-gtk+3-3.24.49/share/gsettings-schemas/gtk+3-3.24.49'$XDG_DATA_DIRS
+XDG_DATA_DIRS=${XDG_DATA_DIRS#':'}
+XDG_DATA_DIRS=${XDG_DATA_DIRS%':'}
+export XDG_DATA_DIRS
+XDG_DATA_DIRS=${XDG_DATA_DIRS:+':'$XDG_DATA_DIRS':'}
+XDG_DATA_DIRS=${XDG_DATA_DIRS/':''/nix/store/dhad7psywld7fav6r6bk94m1sywi0148-gsettings-desktop-schemas-48.0/share/gsettings-schemas/gsettings-desktop-schemas-48.0'':'/':'}
+XDG_DATA_DIRS='/nix/store/dhad7psywld7fav6r6bk94m1sywi0148-gsettings-desktop-schemas-48.0/share/gsettings-schemas/gsettings-desktop-schemas-48.0'$XDG_DATA_DIRS
+XDG_DATA_DIRS=${XDG_DATA_DIRS#':'}
+XDG_DATA_DIRS=${XDG_DATA_DIRS%':'}
+export XDG_DATA_DIRS
+GIO_EXTRA_MODULES=${GIO_EXTRA_MODULES:+':'$GIO_EXTRA_MODULES':'}
+GIO_EXTRA_MODULES=${GIO_EXTRA_MODULES/':''/nix/store/fbi8bzvfx2ydjbph5894sgi6z9ir25lx-dconf-0.40.0-lib/lib/gio/modules'':'/':'}
+GIO_EXTRA_MODULES='/nix/store/fbi8bzvfx2ydjbph5894sgi6z9ir25lx-dconf-0.40.0-lib/lib/gio/modules'$GIO_EXTRA_MODULES
+GIO_EXTRA_MODULES=${GIO_EXTRA_MODULES#':'}
+GIO_EXTRA_MODULES=${GIO_EXTRA_MODULES%':'}
+export GIO_EXTRA_MODULES
+GIO_EXTRA_MODULES=${GIO_EXTRA_MODULES:+':'$GIO_EXTRA_MODULES':'}
+GIO_EXTRA_MODULES=${GIO_EXTRA_MODULES/':''/nix/store/fbi8bzvfx2ydjbph5894sgi6z9ir25lx-dconf-0.40.0-lib/lib/gio/modules'':'/':'}
+GIO_EXTRA_MODULES='/nix/store/fbi8bzvfx2ydjbph5894sgi6z9ir25lx-dconf-0.40.0-lib/lib/gio/modules'$GIO_EXTRA_MODULES
+GIO_EXTRA_MODULES=${GIO_EXTRA_MODULES#':'}
+GIO_EXTRA_MODULES=${GIO_EXTRA_MODULES%':'}
+export GIO_EXTRA_MODULES
+export GDK_PIXBUF_MODULE_FILE='/nix/store/5yl3z9j9jk1ykh49yv5xjalgraahifc3-librsvg-2.60.0/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache'
+XDG_DATA_DIRS=${XDG_DATA_DIRS:+':'$XDG_DATA_DIRS':'}
+XDG_DATA_DIRS=${XDG_DATA_DIRS/':''/nix/store/jyyijm438kvbx1425hw00wx965jsgd9g-gtk+3-3.24.49/share/gsettings-schemas/gtk+3-3.24.49'':'/':'}
+XDG_DATA_DIRS='/nix/store/jyyijm438kvbx1425hw00wx965jsgd9g-gtk+3-3.24.49/share/gsettings-schemas/gtk+3-3.24.49'$XDG_DATA_DIRS
+XDG_DATA_DIRS=${XDG_DATA_DIRS#':'}
+XDG_DATA_DIRS=${XDG_DATA_DIRS%':'}
+export XDG_DATA_DIRS
+XDG_DATA_DIRS=${XDG_DATA_DIRS:+':'$XDG_DATA_DIRS':'}
+XDG_DATA_DIRS=${XDG_DATA_DIRS/':''/nix/store/dhad7psywld7fav6r6bk94m1sywi0148-gsettings-desktop-schemas-48.0/share/gsettings-schemas/gsettings-desktop-schemas-48.0'':'/':'}
+XDG_DATA_DIRS='/nix/store/dhad7psywld7fav6r6bk94m1sywi0148-gsettings-desktop-schemas-48.0/share/gsettings-schemas/gsettings-desktop-schemas-48.0'$XDG_DATA_DIRS
+XDG_DATA_DIRS=${XDG_DATA_DIRS#':'}
+XDG_DATA_DIRS=${XDG_DATA_DIRS%':'}
+export XDG_DATA_DIRS
+exec -a "$0" "/home/e2r2fx/projects/zen-desktop/engine/obj-x86_64-pc-linux-gnu/dist/bin/zen"  "$@"

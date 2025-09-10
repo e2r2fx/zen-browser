@@ -22,3 +22,10 @@ target/
 .vscode/
 
 locales/firefox-l10n/
+.direnv
+.devenv
+.envrc
+zen.source.tar.zst
+.mozbuild/.mozbuild
+.ssh
+.mozbuild

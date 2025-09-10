@@ -1,0 +1,27 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        USER_ID: 1000
+        GROUP_ID: 1000
+    volumes:
+      - .:/home/e2r2fx/projects/zen-desktop
+      - npm_cache:/home/e2r2fx/.npm
+      - pip_cache:/home/e2r2fx/.cache/pip
+      - local:/home/e2r2fx/.local
+      - .ssh:/home/e2r2fx/.ssh
+    working_dir: /home/e2r2fx/projects/zen-desktop
+    user: "1000:1000"
+    tty: true
+    stdin_open: true
+    command: tail -f /dev/null
+    environment:
+      - DEBIAN_FRONTEND=noninteractive
+      - MOZBUILD_STATE_PATH=/home/e2r2fx/projects/zen-desktop/.mozbuild
+
+volumes:
+  npm_cache:
+  pip_cache:
+  local:
